@@ -29,7 +29,9 @@ namespace Banking1
             Console.WriteLine("Account {0}", ba1.ToBankAccountString());
             Console.WriteLine("Account {0}", ba2.ToBankAccountString());
             // Now a saving
-            //SavingsAccount sa1 = new SavingsAccount();
+            SavingsAccount sa = new SavingsAccount(12.5M);
+            Console.WriteLine("Account {0}", sa.ToSavingsAccountString());
+            Console.WriteLine("SA:sa --");
             //sa1.InitSavingsAccount(100M, 12.5M);
             SavingsAccount sa1 = new SavingsAccount(100M, 12.5M);
             SavingsAccount spaar1 = new SavingsAccount(555M, 10.0M);

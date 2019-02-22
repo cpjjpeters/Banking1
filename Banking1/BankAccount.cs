@@ -16,7 +16,8 @@ namespace Banking1
         //public int _accountNumber = ++_nextAccountNumber;
         public int _accountNumber;
         public decimal _balance ;
-        public BankAccount()
+        // Constructors
+        public BankAccount(): this(0)
         {
             this._accountNumber = ++_nextAccountNumber;
         }
@@ -98,8 +99,9 @@ namespace Banking1
     public class SavingsAccount : BankAccount
     {
         public decimal _interestRate;
+        //Input the rate as a rate between 0 and 100
         
-        public SavingsAccount()
+        public SavingsAccount(decimal interestRate):this(interestRate, 0)
         {
 
         }
