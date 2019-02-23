@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking1", "Banking1\Bankin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritingAConstructor", "InheritingAConstructor\InheritingAConstructor.csproj", "{DB8CBB42-3E9A-45F2-A7EC-9A692E4F9F8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HidingWithdrawal", "HidingWithdrawal\HidingWithdrawal.csproj", "{FE4CF557-4FC2-406C-9AAA-182246ECA1BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DB8CBB42-3E9A-45F2-A7EC-9A692E4F9F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB8CBB42-3E9A-45F2-A7EC-9A692E4F9F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB8CBB42-3E9A-45F2-A7EC-9A692E4F9F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE4CF557-4FC2-406C-9AAA-182246ECA1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4CF557-4FC2-406C-9AAA-182246ECA1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4CF557-4FC2-406C-9AAA-182246ECA1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4CF557-4FC2-406C-9AAA-182246ECA1BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
